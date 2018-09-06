@@ -1,0 +1,15 @@
+body{background-color: coral;}
+p{
+  font-size: 24px;
+  font-style: italic;
+}
+.higlight {
+  background-color: magenta;
+}
+
+#higlight-border p
+ {
+  border-style: solid;
+  border-color: blue;
+  border-width: medium;
+}
