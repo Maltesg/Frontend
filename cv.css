@@ -1,0 +1,55 @@
+#om-mig {
+  display: inline-block;
+  font-size: 30px;
+  color: Blue;
+  font-style: Bold;
+  margin-left: 5%;
+}
+#namn1 {
+  display: inline-block;
+  font-size: 15px;
+  color: blue;
+  font-style: Bold;
+  margin-left: 20%;
+}
+#namn2 {
+  display: inline-block;
+  font-size: 15px;
+  font-style: Bold;
+  margin-left: 2%;
+
+}
+#tele {
+  display: inline-block;
+  font-size: 15px;
+  color: blue;
+  font-style: Bold;
+  margin-left: 5%;
+}
+#nummer {
+  display: inline-block;
+  font-size: 15px;
+  font-style: Bold;
+  margin-left: 2%;
+}
+#Arbete {
+  width: 15%;
+  display: inline-block;
+  font-size: 30px;
+  color: Blue;
+  font-style: Bold;
+  margin-left: 5%;
+}
+#Adress {
+  display: inline-block;
+  font-size: 15px;
+  color: blue;
+  font-style: Bold;
+  margin-left: 36%;
+}
+#Adress2 {
+  display: inline-block;
+  font-size: 15px;
+  font-style: Bold;
+  margin-left: 2%;
+}
