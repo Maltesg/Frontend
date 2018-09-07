@@ -1,0 +1,26 @@
+.blocks {
+  width: 640px;
+  height: 512px;
+}
+
+
+#redblock {
+  display: inline-block;
+  background-color: red;
+}
+#blueblock {
+  display: inline-block;
+  background-color: blue;
+}
+#yellowblock {
+  display: inline-block;
+  background-color: yellow;
+}
+#greenblock {
+  display: inline-block;
+  background-color: green;
+}
+h2 {
+  text-align: center;
+  margin-top: 256px;
+}
