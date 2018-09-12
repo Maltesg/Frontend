@@ -1,0 +1,32 @@
+header {
+  max-width: ;
+  height: 100px;
+  background-color: #0066ff;
+}
+h1 {
+  text-align: left;
+  font-style: Bold;
+  margin-left: 20%;
+  padding-top: 25px;
+  color: white;
+}
+article {
+  max-width: ;
+  display: flex;
+  text-align: center;
+  padding: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+footer {
+  max-width: ;
+  height: 75px;
+  background-color: #0066ff;
+}
+h2 {
+  text-align: left;
+  font-size: Bold;
+  margin-left: 20%;
+  padding-top: 20px;
+  color: white;
+}
