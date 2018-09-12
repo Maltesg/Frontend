@@ -9,3 +9,25 @@
   border: 1px solid;
 
 }
+#div1 {
+  background-color:#0000ff;
+}
+#div2 {
+  background-color: #33cc33
+}
+#div3 {
+  background-color: #ffff00;
+
+}
+#div4 {
+  background-color: #660066;
+}
+#div5 {
+  background-color: gray;
+}
+#div6 {
+  background-color: black;
+}
+#div7 {
+  background-color: 30, 100%, 20%;
+}
