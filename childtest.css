@@ -1,0 +1,9 @@
+ul>li {
+  color: blue;
+}
+ul>li ul>li {
+  color: green;
+}
+ul>li ul>li ul>li {
+  color: red;
+}

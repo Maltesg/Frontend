@@ -1,0 +1,85 @@
+.header {
+  background-color: blue;
+  width: 100%;
+  float: left;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+}
+.sidebar {
+  background-color: #00cc66;
+  width: 25%;
+  height: 300px;
+  float: left;
+  text-align: center;
+}
+.maintext {
+  background-color: #ff9900;
+  float: left;
+  width: 75%;
+  height: 300px;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  float: left;
+  height: 100px;
+  background-color: yellow;
+  text-align: center;
+}
+.floating-menu {
+  width: 100%;
+  height: 100px;
+
+}
+.floating-menu ul {
+  padding: 10px;
+  height: 40px;
+  border: 1px solid;
+
+}
+.floating-menu ul > li {
+  float: left;
+  margin-left: 20px;
+  padding: 10px;
+  border: 10px solid;
+  list-style-type: none;
+  color: black;
+}
+.floating-menu ul > li {
+  text-decoration: none;
+  color: yellow;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid;
+  background-color: yellow;
+
+}
+.footer-menu ul {
+  padding: 10px;
+  height: 40px;
+  border: 1px solid;
+
+}
+.footer-menu ul > li {
+
+  margin-left: 20px;
+  padding: 10px;
+  border: 10px solid;
+  list-style-type: none;
+  color: black;
+}
+.footer-menu ul > li {
+  display: inline-block;
+  vertical-align: top;
+
+  float: left;
+  text-decoration: none;
+  color: yellow;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid;
+  background-color: yellow;
+
+}

@@ -1,0 +1,40 @@
+.kolumn {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 900px;
+  background-color: blue;
+  margin: -2px;
+}
+.kolumn2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 900px;
+  background-color: red;
+  margin: -2px;
+}
+.kolumn3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 900px;
+  background-color: yellow;
+  margin: -2px;
+}
+.kolumn4 {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 900px;
+  background-color: pink;
+  margin: -2px;
+}
+.kolumn5 {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 900px;
+  background-color: green;
+  margin: -2px;
+}
