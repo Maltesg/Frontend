@@ -1,0 +1,13 @@
+li:first-child {
+  color: blue;
+}
+li:last-child {
+  color: red;
+}
+li:not(:first-child) {
+  font-size: 25px;
+}
+
+li:nth-child(2) {
+  font-size: 50px;
+}
