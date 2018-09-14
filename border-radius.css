@@ -18,3 +18,26 @@
   cursor: pointer;
 
 }
+.box1 {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+
+}
+.box2 {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  background-color: red;
+  padding: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+p {
+  text-align: center;
+  padding: 50px;
+}
