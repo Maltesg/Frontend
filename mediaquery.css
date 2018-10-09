@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #6A1384;
+  color: #FFF;
+  text-align: center;
+}
+
+header > div {
+  padding: 20px;
+  font-size: 50px;
+}
+
+header .small-title {
+  display: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #eaeaea;
+  position: fixed;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 10px;
+  color: #000;
+}
+
+
+@media screen and (max-width: 600px) {
+  .big-title {display: none;}
+  header .small-title {display: block;}
+  .sidebar {width: 20%;}
+
+ }
+ @media screen and (min-width: 1200px) {
+   .big-title {display: none;}
+   .large-title {display: block;}
+
+ }
+ @media screen and (max-width: 1199px) {
+   .large-title {display: none;}
+ }
+ @media screen and (max-width:400px) {
+   .sidebar {display: none;}
+ }
+ @media print  {
+   header {display: none;}
+   .sidebar {display: none;}
+ }
+ @media screen and (orientation: portrait) and (max-width: 700px), (orientation:landscape) {
+   .sidebar {right: 0; top: 98;}
+ }
+@media screen and (max-width: 500px) {
+  body {background-color: red;}
+}
+@media screen and (max-width: 600px) and (min-width:501px) {
+  body {background-color: blue;}
+}
+@media screen and (max-width: 700px) and (min-width:601px) {
+  body {background-color: yellow;}
+}
+@media screen and (max-width: 800px) and (min-width:701px) {
+  body {background-color: green;}
+}
+@media screen and (max-width: 900px) and (min-width:801px) {
+  body {background-color: cyan;}
+}
+@media screen and (max-width: 1000px) and (min-width:9  01px) {
+  body {background-color: orange;}
+}
+@media screen and (max-width: 1100px) and (min-width:1001px) {
+  body {background-color: violet;}
+}
+img {
+  width: 33%;
+  height: 33%;
+}
+@media screen and (max-width: 1000px) {
+  img { width: 33%;}
+}
+@media screen and (max-width: 700px) {
+  img { width: 50%;}
+}
+@media screen and (max-width: 500px) {
+  img {width: 100%;}
+}

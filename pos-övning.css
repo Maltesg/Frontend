@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+}
+header {
+
+
+  width: 100%;
+  height:75px;
+  background-color: lightblue;
+  text-align: center;
+  border: 1px solid black;
+
+
+}
+
+
+
+.card-container {
+  width: 750px;
+  height: 300px;
+  background-color: #cccccc;
+  box-sizing: border-box;
+
+}
+.card1 {
+  position: relative;
+  margin: 25px;
+  box-sizing: border-box;
+  height: 80%;
+  width: 25%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  float: left;
+
+
+}
+.small-box1 {
+  height: 80%;
+  background-color: lightblue;
+  text-align: center;
+
+}
+.card2 {
+
+
+    margin: 25px;
+    box-sizing: border-box;
+    height: 80%;
+    width: 25%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+
+}
+.small-box2 {
+  height: 80%;
+  background-color: Yellow;
+  text-align: center;
+
+
+}
+.card3 {
+  margin: 25px;
+  box-sizing: border-box;
+  height: 80%;
+  width: 25%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  float: left;
+}
+.small-box3 {
+  height: 80%;
+  background-color: green;
+  text-align: center;
+
+
+}
+h3 {
+  margin: 0;
+  padding-top: 70px;
+  font-size: 50px;
+}
+#floating-button {
+
+}
+#button {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #3399ff;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 1px 1px 5px 0px black;
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+
+}
+#button:hover {
+  background-color: grey;
+  cursor: pointer;
+}

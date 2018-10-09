@@ -1,0 +1,114 @@
+body {
+  background-color: grey;
+}
+.japan {
+  margin: 10px;
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+}
+.japan::after{
+  content:"";
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sverige {
+  margin: 10px;
+  width: 350px;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+  transition: 2s;
+}
+.sverige::after {
+  content: "";
+  width: 350px;
+  height: 25px;
+  background-color: yellow;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.sverige::before {
+  content: "";
+  width: 25px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  display: flex;
+  left: 40%;
+  transform: translate(-50%, 0%);
+}
+.sverige:hover {
+  margin: 10px;
+  width: 350px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+  transform: rotateY(180deg);
+
+}
+.sverige:hover:after {
+  content: "";
+  width: 350px;
+  height: 25px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.sverige:hover:before {
+  content: "";
+  width: 25px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 40%;
+  transform: translate(-50%, 0%);
+}
+.danmark {
+  margin: 10px;
+  width: 350px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+}
+.danmark::after {
+  content: "";
+  width: 350px;
+  height: 25px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.danmark::before {
+  content: "";
+  width: 25px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 40%;
+  transform: translate(-50%, 0%);
+}
