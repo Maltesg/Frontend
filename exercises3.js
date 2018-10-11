@@ -1,3 +1,5 @@
+// Lägg till och ta bort noder/element.
+
 var p = document.createElement('p');
 p.textContent = 'Hello World';
 var noText = document.querySelector('#no-text');
