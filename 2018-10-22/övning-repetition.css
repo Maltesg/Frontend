@@ -1,0 +1,37 @@
+/** Write your CSS here **/
+
+
+/** Do not change this **/
+
+body {
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 20px;
+    color: #808080;
+  }
+  
+  p {
+    margin: 20px;
+  }
+  
+  #thelist {
+    list-style: upper-roman;
+  }
+  
+  #header-title {
+    color: #ccc !important;
+  }
+  #thelist li:nth-child(odd) {
+      color: grey;
+  }
+  #thelist {
+      list-style: none;
+  }
+  .beer {
+      display: none;
+  }
+  h3 ~ * {
+      margin-left: 30px;
+  }
