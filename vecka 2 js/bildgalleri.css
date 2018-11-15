@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-img-container {
+    display: flex;
+    width: 800px;
+    height: 500px; 
+    justify-content: center;
+
+}
+.big-img-container img {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    
+}
+.small-img-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+
+}
+.small-img-container img {
+    display: flex;
+    width: 160px;
+    height: 100px;
+}
